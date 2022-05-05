@@ -1,6 +1,18 @@
 # MultiFunction-Program-Mandatory-Task-
 
 This is a simple Basic C program which offers the user to try 2 Different types of programs.
+
   1. To print the the word before the occurence of First Delimeter in the String given during the execution of program and the Number of Characters in the Resultant      String. 
    
-    ![Mandatory Task String output 1](https://user-images.githubusercontent.com/104273406/166992021-d607eae7-2d27-4172-b6a4-fc0648b1f331.JPG)
+![Mandatory Task String output 1](https://user-images.githubusercontent.com/104273406/166996709-d5ddc9f9-83f1-402e-b910-2244ce1edcd8.JPG) 
+
+![Mandatory Task String output 2](https://user-images.githubusercontent.com/104273406/167001323-0a2fbe8a-f607-41da-aed2-27f3e3642733.JPG)
+
+
+
+2. To Sort an Unsorted array in Ascending Order which was inputted by the user using Selection Sort. 
+
+![Mandatory Task Array output 1](https://user-images.githubusercontent.com/104273406/166999031-864d4605-91ed-44e4-9c16-58b124735693.JPG)
+
+
+![Mandatory Task Array output 2](https://user-images.githubusercontent.com/104273406/166999153-8ad46792-f03b-4c4e-a120-67496aafe951.JPG)
