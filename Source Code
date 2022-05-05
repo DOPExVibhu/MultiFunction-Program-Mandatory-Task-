@@ -8,9 +8,11 @@ int main(void)
   printf("Welcome to Multifunction Program \n");
   printf("Press 1 for String Program \n");
   printf("Press 2 for Selection Sort in Ascending Order \n");
+  printf("\n");
   printf("Enter Choice\n");
   int ch;
   scanf("%i",&ch);
+  printf("\n");
   // Declaring variables required during the execution of program 
   char str1[80],str2[80];
   int i;
@@ -27,7 +29,9 @@ int main(void)
                 }
                 str1[i]='\0';
                 printf("\n");
+                printf("Resultant String: ");
                 printf("%s\n",str1);
+                printf("\n");
                 printf("Number of Characters =%d\n",i); 
                 // In built function to exit out of the terminal 
                 exit(0);
@@ -72,6 +76,7 @@ int main(void)
 
               // Printing the required Array 
                printf("\nPrinting the Sorted array in Ascending order : \t");
+        printf("\n");
                 for(i=0;i<size;i++)
                {
                  // Printing the elements of array in each iteration 
