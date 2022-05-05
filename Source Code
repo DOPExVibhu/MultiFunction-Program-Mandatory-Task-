@@ -1,0 +1,87 @@
+// preprocessor directive 
+#include <stdio.h>
+#include <stdlib.h>
+// main function 
+int main(void)
+{
+  
+  printf("Welcome to Multifunction Program \n");
+  printf("Press 1 for String Program \n");
+  printf("Press 2 for Selection Sort in Ascending Order \n");
+  printf("Enter Choice\n");
+  int ch;
+  scanf("%i",&ch);
+  // Declaring variables required during the execution of program 
+  char str1[80],str2[80];
+  int i;
+  int size;
+  // Switch Case 
+  switch(ch)
+    {
+      case 1:   printf("Enter a string \n");
+                printf(":");
+                scanf("%s",str2);
+                for(i=0;str2[i]!='\0';i++)
+                {
+                   str1[i]=str2[i];
+                }
+                str1[i]='\0';
+                printf("\n");
+                printf("%s\n",str1);
+                printf("Number of Characters =%d\n",i); 
+                // In built function to exit out of the terminal 
+                exit(0);
+                // jump statment 
+                break; 
+
+      case 2:  // Declaration of variable size to store the size 
+               //of array 
+  
+                printf("Input the size of the array\n");
+                // Taking input of size of the array from the user 
+                scanf("%i",&size);
+                 /* Delcaring an array and allocating size  on 
+                 which working is required */
+                int a[size];
+                // Declaring iterative variables 
+                int i,j;
+                printf("\nInput of the array: \n \t");
+                // Input of the array from the user  using for 
+                // loop 
+                for(i=0;i<size;i++)
+                {
+                 /* Getting the input of each element at each 
+                 index at every iteration */
+                 scanf("%i",&a[i]);
+                }
+                /* Sorting the inputted array in Ascending Order 
+                 Using Selection Sort */
+                 for(i=0;i<size;i++)
+                 {
+                  for(j=i+1;j<size;j++)
+                  {
+                    if(a[i]>a[j])
+                    {
+                       // taking "temp" as temporary variable 
+                       int temp=a[i];
+                       a[i]=a[j];
+                       a[j]=temp;
+                    }
+                  }
+                }
+
+              // Printing the required Array 
+               printf("\nPrinting the Sorted array in Ascending order : \t");
+                for(i=0;i<size;i++)
+               {
+                 // Printing the elements of array in each iteration 
+                 printf("%i\t",a[i]);
+               }
+               // In built function to exit out of the terminal 
+                exit(0);
+               // Jump Statement 
+               break; 
+    } // End of Switch Case
+ 
+  return 0;
+} // End  of Program  
