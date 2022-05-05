@@ -38,8 +38,8 @@ int main(void)
                 // jump statment 
                 break; 
 
-      case 2:  // Declaration of variable size to store the size 
-               //of array 
+      case 2:  /* Declaration of variable size to store the size 
+               of array */ 
   
                 printf("Input the size of the array\n");
                 // Taking input of size of the array from the user 
@@ -50,8 +50,8 @@ int main(void)
                 // Declaring iterative variables 
                 int i,j;
                 printf("\nInput of the array: \n \t");
-                // Input of the array from the user  using for 
-                // loop 
+                /* Input of the array from the user  using for 
+                 loop */
                 for(i=0;i<size;i++)
                 {
                  /* Getting the input of each element at each 
